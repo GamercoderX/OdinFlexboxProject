@@ -1,0 +1,212 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+p{
+    margin: 10px;
+}
+
+.button-one{
+    margin: 10px;
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 35px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #1F2937;
+
+}
+
+.headerbar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 190px;
+    margin-right: 180px;
+    margin-top: 15px;
+}
+
+.header-links{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.headerbottom{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.smallp{
+    font-size: 18px;
+}
+
+.boldp{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1130px;
+    height: 300px;
+    
+}
+.motoimg{
+    max-width: 100%; /* set the maximum width of the image to fit within the container */
+  max-height: 100%; /* set the maximum height of the image to fit within the container */
+  object-fit: contain; /* scale the image to fit while preserving aspect ratio */
+  object-position: center; /* position the image to the center */
+
+}
+
+.yellow{
+    color: yellow;
+}
+
+/* dividing
+section  */
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 15px;
+}
+
+.c2a{
+    display: flex;
+    align-self: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.box{
+    display: flex;
+
+    width: 150px;
+    height: 150px;
+  
+
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+.four-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.txt{
+    width: 150px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+/* dividing
+section  */
+
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 80px;
+    
+    
+}
+
+.quotetext{
+    text-align: left;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-style: italic;
+}
+
+.thor{
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+ 
+}
+
+/* dividing
+section  */
+
+.white{
+    display: flex;
+    justify-content: center;
+
+    padding: 100px 100px;
+}
+
+.blue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 230px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    color: white;
+
+    font-size: 24px;
+}
+
+.bluebutton{
+    padding: 10px 30px;
+    background-color: #3882f6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    font-size: 18px;
+}
+
+.signup{
+    font-size: 18px;
+    color: #cccdd0;
+}
+
+/* dividing
+section  */
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: #cccdd0;
+    background-color: #1F2937;
+    padding: 35px ;
+}
